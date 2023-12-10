@@ -1,0 +1,857 @@
+/* montserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* volkhov font */
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #1a1c22;
+  height: 4600px;
+}
+
+/* -----Navbar----- */
+nav {
+  position: relative;
+  display: flex;
+  margin: 60px 80px;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand */
+
+.brand {
+  display: flex;
+}
+
+/* List */
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  /* style text */
+  color: #fef4f4;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.27px;
+}
+
+/* Hover */
+
+.movies :hover {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tv-shows :hover {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.new-popular :hover {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* right ctn navbar */
+.right-ctn-navbar {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu-language {
+  color: #fef4f4;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.27px;
+}
+
+.menu-language img {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* button */
+.btn-masuk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 45px;
+  border-radius: 15px;
+  background: linear-gradient(96deg, #bc0e19 7.77%, #db202c 91.68%);
+  box-shadow: 0px 5px 25px 0px rgba(192, 30, 41, 0.5);
+}
+
+.btn-masuk a {
+  text-decoration: none;
+  color: #fef4f4;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.27px;
+}
+
+/* ---- Content 1 ----- */
+
+.welcome-ctn {
+  display: flex;
+  margin: 0px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.txt-hero {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 549px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img-hero img {
+  width: 465px;
+  height: 555px;
+}
+
+.title-hero {
+  color: #fef4f4;
+  /* Display */
+  font-family: Volkhov;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -0.84px;
+}
+
+.ctn-hero {
+  color: #e3e1e1;
+  /* Paragraph */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.24px;
+}
+
+/* Button */
+
+.btn-daftar-sekarang {
+  width: 205px;
+  height: 50px;
+  border-radius: 15px;
+  background: linear-gradient(96deg, #bc0e19 7.77%, #db202c 91.68%);
+  box-shadow: 0px 5px 25px 0px rgba(192, 30, 41, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-daftar-sekarang a {
+  color: #fef4f4;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.27px;
+  text-decoration: none;
+}
+
+/* -----Page Layanan----- */
+
+.ctn-layanan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 80px;
+  gap: 25px;
+}
+
+.heading-layanan {
+  display: flex;
+  width: 510px;
+  color: #fef4f4;
+  text-align: center;
+  /* Tittle */
+  font-family: Volkhov;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.card-layanan {
+  display: flex;
+  gap: 15px;
+}
+
+.crd {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 238px;
+  border-radius: 30px;
+  background: #1f2127;
+  padding: 20px;
+}
+
+.crd img {
+  width: 70px;
+  height: 70px;
+}
+
+.title-lyn {
+  color: #fef4f4;
+  /* Small title */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.27px;
+}
+
+.crd p {
+  color: #e3e0e0;
+  /* Detail */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: -0.21px;
+}
+
+/* -----CTN Iklan----- */
+
+.ctn-iklan {
+  height: 450px;
+  margin: 200px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.layer {
+  display: inline-block;
+  position: absolute;
+  left: 15%;
+  width: 419px;
+  height: 419px;
+  border-radius: 519px;
+  background: rgba(95, 122, 219, 0.8);
+  filter: blur(50px);
+}
+
+.img-iklan img {
+  position: absolute;
+  width: 537px;
+  height: 438px;
+}
+
+.title-iklan {
+  display: flex;
+  align-items: center;
+  color: #fef4f4;
+  /* Sub-page H1 */
+  width: 447px;
+  font-family: Volkhov;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+/* -----Popular Film Page----- */
+
+.ctn-popular-film {
+  margin: 200px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Header */
+
+.heading-popular-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-end;
+}
+
+.title-popular-page {
+  width: 510px;
+  color: #fff;
+  /* Tittle */
+  font-family: Volkhov;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.btn-lihat-semua {
+  width: 170px;
+  height: 50px;
+  border-radius: 15px;
+  background: linear-gradient(96deg, #bc0e19 7.77%, #db202c 91.68%);
+  box-shadow: 0px 5px 25px 0px rgba(192, 30, 41, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-lihat-semua a {
+  color: #fef4f4;
+  /* Body Text CTA Btn */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.27px;
+  text-decoration: none;
+}
+
+/* Card */
+
+.ctn-film {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.crd-film {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  width: 220px;
+  border-radius: 30px;
+  border: 1px solid rgba(254, 244, 244, 0.6);
+  background: #1f2127;
+  box-shadow: 0px 5px 25px 0px rgba(64, 67, 78, 0.5);
+}
+
+.title-film {
+  color: #fef4f4;
+  /* Small title */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.27px;
+}
+
+.genre-film {
+  color: #fef4f4;
+  /* Paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.24px;
+}
+
+.rating-film {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #e3e0e0;
+  /* Detail */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: -0.21px;
+}
+
+/* ----- Paket Berlangganan ------*/
+
+.pilihan-paket {
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.heading-pilihan-paket {
+  color: #fef4f4;
+  /* Sub-page H1 */
+  font-family: Volkhov;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 180% */
+  letter-spacing: -0.6px;
+  width: 480px;
+  display: flex;
+  text-align: center;
+}
+
+/* Card */
+
+.paket {
+  display: flex;
+  gap: 30px;
+}
+
+.paket-basic {
+  padding: 36px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  background: #1f2127;
+  width: 300px;
+  gap: 20px;
+}
+
+.paket-standart {
+  padding: 36px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid #fef4f4;
+  background: linear-gradient(
+    168deg,
+    #1f2127 3.06%,
+    #373a43 47.56%,
+    #1f2127 96.94%
+  );
+  width: 300px;
+  gap: 20px;
+}
+
+.paket-premium {
+  padding: 36px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  background: #1f2127;
+  width: 300px;
+  gap: 20px;
+}
+
+.title-paket {
+  color: #fef4f4;
+  /* Body H4 */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 180% */
+  letter-spacing: -0.3px;
+}
+
+.harga {
+  display: flex;
+  text-align: center;
+}
+
+.per-bulan {
+  color: #fef4f4;
+  /* Body P */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.24px;
+}
+
+.nominal-harga {
+  color: #db202c;
+  /* Body P Large */
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 156.25% */
+  letter-spacing: -0.48px;
+}
+
+.list-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+  gap: 8px;
+}
+
+.list-value-img {
+  display: flex;
+  list-style-image: url(img/cheklist.png);
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list-value-img li {
+  color: #fef4f4;
+  /* Body P */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: -0.24px;
+}
+
+.list-value-no-img {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list-value-no-img li {
+  color: #abacaf;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: -0.24px;
+}
+
+/* button */
+
+.btn-pilih-paket {
+  width: 125px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid #fef4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-pilih-paket a {
+  color: #fef4f4;
+  /* Body Text CTA Btn */
+  font-family: Montserrat;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.27px;
+}
+
+.btn-pilih-paket-red {
+  border-radius: 15px;
+  background: linear-gradient(96deg, #bc0e19 7.77%, #db202c 91.68%);
+  box-shadow: 0px 5px 25px 0px rgba(192, 30, 41, 0.5);
+  width: 125px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-pilih-paket-red a {
+  color: #fef4f4;
+  /* Body Text CTA Btn */
+  font-family: Montserrat;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.27px;
+}
+
+/* card berlangganan */
+
+.berlangganan {
+  margin: 200px 80px;
+  display: flex;
+  position: relative;
+}
+
+.card-berlangganan {
+  width: 1025px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #c8cfec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-icon {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  border-radius: 25px;
+  top: -5%;
+  left: 93%;
+  stroke-width: 5px;
+  stroke: #1a1c22;
+}
+
+.title-langganan {
+  width: 620px;
+  color: #1a1c22;
+  text-align: center;
+  /* Subtittle */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 180% */
+  letter-spacing: -0.3px;
+}
+
+.email-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+  gap: 24px;
+}
+
+.email-input input {
+  width: 345px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fef4f4;
+  border: none;
+  /* text style */
+  color: #1a1c22;
+  /* Body P */
+  padding-left: 9px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: -0.24px;
+}
+
+.btn-berlangganan {
+  border-radius: 15px;
+  background: linear-gradient(96deg, #bc0e19 7.77%, #db202c 91.68%);
+  box-shadow: 0px 5px 25px 0px rgba(192, 30, 41, 0.5);
+  width: 186px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-berlangganan a {
+  /* style text */
+  color: #fef4f4;
+  /* Body Text CTA Btn */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.27px;
+  text-decoration: none;
+}
+
+footer {
+  margin: 200px 80px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.title-footer {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  gap: 24px;
+}
+
+.iklan-footer {
+  width: 290px;
+  color: #e3e0e0;
+  /* Detail */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: -0.21px;
+}
+
+.list-footer {
+  display: flex;
+  gap: 25px;
+}
+
+.list-footer ul {
+  list-style-type: none;
+}
+
+.title-list {
+  color: #fef4f4;
+  /* Small title */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.27px;
+  margin-bottom: 24px;
+}
+
+.list-footer ul li a {
+  color: #e3e0e0;
+  text-decoration: none;
+  /* Paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: -0.24px;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  color: #fef4f4;
+  width: 250px;
+  gap: 24px;
+  /* Small title */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.27px;
+}
+
+.app-store {
+  display: flex;
+  gap: 16px;
+}
+
+.app-store img {
+  width: 100px;
+}
+
+.medsos {
+  display: flex;
+  gap: 24px;
+}
+
+.facebook {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #1a1c22;
+  filter: drop-shadow(0px 2px 10px rgba(64, 67, 78, 0.2));
+  cursor: pointer;
+}
+
+.ig {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  filter: drop-shadow(0px 2px 10px rgba(64, 67, 78, 0.2));
+  background: linear-gradient(150deg, #bc0e19 7.68%, #db202c 92.32%);
+  filter: drop-shadow(0px 2px 10px rgba(192, 30, 41, 0.25));
+  cursor: pointer;
+}
+
+.twitter {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #1a1c22;
+  filter: drop-shadow(0px 2px 10px rgba(64, 67, 78, 0.2));
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hak-cipta {
+  color: #fff;
+  /* Detail */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: -0.21px;
+}
+
+.kebijakan {
+  display: flex;
+  gap: 24px;
+  color: #fff;
+  /* Detail */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: -0.21px;
+}
